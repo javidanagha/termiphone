@@ -39,6 +39,7 @@ termiphone/
 ├── shell.py # PTY-backed persistent bash session
 ├── setup_totp.py # One-time TOTP secret generation
 ├── show_qr.py # Displays the pairing QR code in-terminal
+├── test_auth.py          # Standalone script to verify TOTP setup before running the bot
 ├── requirements.txt
 ├── .gitignore
 ├── LICENSE
