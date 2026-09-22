@@ -13,19 +13,7 @@ Remote terminal access to a Linux host over Telegram, gated by a TOTP, no SSH, n
 
 The bot never listens on a port. It only makes outbound connections to Telegram. The attack surface is the Telegram account and the TOTP secret, not an open network service.
 
-phone
-│
-▼
-Telegram servers ──long polling──▶ bot.py
-│
-▼
-auth.py (TOTP gate)
-│
-▼
-shell.py (PTY)
-│
-▼
-bash
+phone ▶ Telegram servers ▶ long polling ▶ bot.py ▶ auth.py (TOTP gate) ▶ shell.py (PTY) ▶ bash
 
 A message only reaches `bash` if it passes two checks: the sender's Telegram user ID is on the allowlist, and a session is currently open.
 
