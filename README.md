@@ -33,17 +33,8 @@ A message only reaches `bash` if it passes two checks: the sender's Telegram use
 
 ## Repository structure
 
-termiphone/
-├── bot.py # Telegram handlers — /login, /logout, /ctrl, text → shell
-├── auth.py # TOTP verification, session timeout, lockout logic
-├── shell.py # PTY-backed persistent bash session
-├── setup_totp.py # One-time TOTP secret generation
-├── show_qr.py # Displays the pairing QR code in-terminal
-├── test_auth.py          # Standalone script to verify TOTP setup before running the bot
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-└── README.md
+<img width="756" height="169" alt="image" src="https://github.com/user-attachments/assets/23ef33e2-438e-46ee-8977-a2f83e41ae46" />
+
 
 ---
 
