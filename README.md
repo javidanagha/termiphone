@@ -33,17 +33,20 @@ A message only reaches `bash` if it passes two checks: the sender's Telegram use
 
 ## Repository structure
 
+## Repository structure
+
 src/
-├── bot.py # Telegram handlers
-├── auth.py # TOTP verification, session, lockout
-├── shell.py # PTY-backed persistent bash session
-├── setup_totp.py # One-time TOTP secret generation
-├── show_qr.py # Displays the pairing QR code
-├── test_auth.py # Verifies TOTP setup
-└── requirements.txt
-.gitignore
-LICENSE
-README.md
+- `src/bot.py` — Telegram handlers
+- `src/auth.py` — TOTP verification, session, lockout
+- `src/shell.py` — PTY-backed persistent bash session
+- `src/setup_totp.py` — One-time TOTP secret generation
+- `src/show_qr.py` — Displays the pairing QR code
+- `src/test_auth.py` — Verifies TOTP setup
+- `src/requirements.txt`
+- ---
+- `.gitignore`
+- `LICENSE`
+- `README.md`
 
 ---
 
