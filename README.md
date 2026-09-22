@@ -33,8 +33,6 @@ A message only reaches `bash` if it passes two checks: the sender's Telegram use
 
 ## Repository structure
 
-## Repository structure
-
 src/
 ├── bot.py # Telegram handlers — /login, /logout, /ctrl, text → shell
 ├── auth.py # TOTP verification, session timeout, lockout logic
