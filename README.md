@@ -43,7 +43,7 @@ src/
 - `src/show_qr.py` — Displays the pairing QR code
 - `src/test_auth.py` — Verifies TOTP setup
 - `src/requirements.txt`
-- ---
+- 
 - `.gitignore`
 - `LICENSE`
 - `README.md`
