@@ -32,7 +32,7 @@ A message only reaches `bash` if it passes two checks: the sender's Telegram use
 ---
 
 ## Repository structure
-
+```
 src/
 ├── bot.py # Telegram handlers — /login, /logout, /ctrl, text → shell
 ├── auth.py # TOTP verification, session timeout, lockout logic
@@ -44,7 +44,7 @@ src/
 .gitignore
 LICENSE
 README.md
-
+```
 ---
 
 ## Security model
